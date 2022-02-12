@@ -53,6 +53,7 @@ class _CountUpState extends State<CountUp> {
         // backgroundColor: Color.fromRGBO(255, 112, 165, 1),
         backgroundColor: Colors.amber,
         appBar: AppBar(
+          centerTitle: true,
           // backgroundColor: Color.fromRGBO(255, 112, 165, 1),
           backgroundColor: Colors.amber,
           elevation: 0.0,
