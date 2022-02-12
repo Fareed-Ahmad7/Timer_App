@@ -12,3 +12,5 @@
       ),
     );
   }
+
+  "solved the flutter launcher icons error " from "https://github.com/fluttercommunity/flutter_launcher_icons/issues/333"
