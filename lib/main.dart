@@ -71,6 +71,13 @@ class _CountUpState extends State<CountUp> {
                 child: buildTime(),
               ),
             ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(30, 60, 30, 60),
+              alignment: Alignment.center,
+              child: Image.asset("assets/images/Group 1.png",
+              ),
+            ),
+            const SizedBox(height: 60,),
             buildButtons(),
           ],
         ),
@@ -107,6 +114,7 @@ class _CountUpState extends State<CountUp> {
             children: [
               TextButton(
                 style: TextButton.styleFrom(
+                  elevation: 10,
                   primary: Colors.white,
                   backgroundColor: Colors.black,
                 ),
@@ -130,6 +138,7 @@ class _CountUpState extends State<CountUp> {
               ),
               TextButton(
                 style: TextButton.styleFrom(
+                  elevation: 10,
                   primary: Colors.white,
                   backgroundColor: Colors.black,
                 ),
@@ -152,6 +161,7 @@ class _CountUpState extends State<CountUp> {
           )
         : TextButton(
             style: TextButton.styleFrom(
+              elevation: 10,
               primary: Colors.white,
               backgroundColor: Colors.black,
             ),
